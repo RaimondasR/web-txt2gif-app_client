@@ -1,0 +1,11 @@
+.HeaderComp {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    width: 100%;
+    background-color:lightsteelblue;
+    box-shadow: 0 4px lightseagreen;
+    font-size: 20px;
+  }
+  
+  .HeaderComp h1 h3 div {  padding: 0 0;}
