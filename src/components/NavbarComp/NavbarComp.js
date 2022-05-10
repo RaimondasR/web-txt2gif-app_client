@@ -21,7 +21,7 @@ const NavbarComp = () => {
         {(!loggedInUser && location.pathname !=="/login") && <Link to="/login">Log In</Link>}
         {(!loggedInUser && location.pathname !=="/register") && <Link to="/register">New User? Sign Up</Link>}   
         {location.pathname !=="/home" && <Link to="/home">Home</Link>} 
-        {location.pathname !=="/" && <Link to="/home">Home</Link>}           
+        {/* {location.pathname !=="/" && <Link to="/home">Home</Link>}            */}
         {(loggedInUser && location.pathname !=="/enter-text") && <Link to="/enter-text">Text to GIF</Link>}
         {/* {location.pathname !=="/all-topics" && <Link to="/all-topics">Topics</Link>} */}
         
