@@ -13,7 +13,7 @@ const EnterTextComp = () => {
 
   async function enterText () {
     const textData = {    
-      text: refs.textRef.current.value // text to enter
+      textEntered: refs.textRef.current.value // text to enter
     } 
     
     http.post(textData, "enter-text")
